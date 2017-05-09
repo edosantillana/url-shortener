@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "FCC backend developer exercise",
+  "main": "server.js",
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "edosantillana",
+  "license": "ISC",
+  "dependencies": {
+    "base62": "^1.1.2",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.8",
+    "mongodb": "^3.4.4",
+    "url": "^0.11.0",
+    "validator": "^7.0.0"
+  }
+}
