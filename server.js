@@ -4,8 +4,9 @@ var routes = require("./app/routes/index.js");
 var api = require("./app/api.js");
 
 var port = process.env.PORT || '8080';
-mongoose.connect(process.env.MONGOLAB_URL);
-//mongoose.connect('mongodb://localhost/shortUrl');
+//mongoose.connect(process.env.MONGOLAB_URL);
+mongoose.connect('mongodb://shorturl:shorturl@ds133321.mlab.com:33321/shorturl-edo');
+
 var db = mongoose.connection;
 var app = express();
 
