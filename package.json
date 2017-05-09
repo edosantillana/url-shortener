@@ -15,8 +15,8 @@
   "dependencies": {
     "base62": "^1.1.2",
     "express": "^4.15.2",
+    "mongodb": "^2.2.26",
     "mongoose": "^4.9.8",
-    "mongodb": "^3.4.4",
     "url": "^0.11.0",
     "validator": "^7.0.0"
   }
